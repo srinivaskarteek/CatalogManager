@@ -1,5 +1,5 @@
 <div class="container-fluid" >
-<div  class="row">
+<div  style="margin-left: 15px" class="row">
 
     <div  class="col-md-2" >
       Package List
@@ -11,19 +11,19 @@
   </div>
   <div  class="row">
   <div class="table-responsive">
-    <table class="table">
+    <table class="table table-hover table-sm" style="border: 1px lightgray solid">
         <thead>
-        <tr>            
-            <th><input type="checkbox" value="" >  Package Name</th>
-            <th>Device Family</th>
-            <th>Product Family</th>
-            <th>Satus</th>
-            <th>View Details</th>
+        <tr style="background:#E6E6E6">
+            <th style="border-right: 1px lightgray solid"><input type="checkbox" value="" >  Package Name</th>
+            <th style="border-right: 1px lightgray solid">Device Family  </th>
+            <th style="border-right: 1px lightgray solid">Product Family</th>
+            <th style="border-right: 1px lightgray solid">Satus</th>
+            <th style="border-right: 1px lightgray solid">View Details</th>
             <th> </th>
         </tr>
     </thead>
     <tbody>
-      <tr *ngFor='let package of packages'>        
+      <tr *ngFor='let package of packages'>
         <td><input type="checkbox" value="" [checked]="package.checked">  {{package.packageName }}</td>
         <td>{{package.deviceFamily}}</td>
         <td>{{package.productFamily}}</td>
@@ -34,10 +34,10 @@
         <td><a [routerLink]="">
           View
       </a></td>
-        <td>          
+        <td>
             <a [routerLink]="">
            <img  src="../../assets/download.PNG" /></a>
-       
+
       </td>
     </tr>
     </tbody>
