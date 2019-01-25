@@ -12,4 +12,26 @@ export class PackagelistComponent implements OnInit {
   ngOnInit() {
   }
 
+  packages= [
+    {
+      "checked":false,
+      "packageName": "sample",
+      "deviceFamily": "Leaf Rake",
+      "productFamily": "GDN-0011",
+      "status": "Approve",
+    },{
+      "checked":false,
+      "packageName": "sample",
+      "deviceFamily": "Leaf Rake",
+      "productFamily": "GDN-0011",
+      "status": "Approve",
+    },{
+      "checked":true,
+      "packageName": "sample",
+      "deviceFamily": "Leaf Rake",
+      "productFamily": "GDN-0011",
+      "status": "Approve",
+    }
+   
+  ];
 }

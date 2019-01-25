@@ -1,4 +1,4 @@
-
+<div class="container-fluid" >
 <div  class="row">
 
     <div  class="col-md-2" >
@@ -9,6 +9,39 @@
         <img  src="../../assets/AddPackage.PNG"/>
         </div>
   </div>
-
-
-<router-outlet></router-outlet>
+  <div  class="row">
+  <div class="table-responsive">
+    <table class="table">
+        <thead>
+        <tr>            
+            <th><input type="checkbox" value="" >  Package Name</th>
+            <th>Device Family</th>
+            <th>Product Family</th>
+            <th>Satus</th>
+            <th>View Details</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor='let package of packages'>        
+        <td><input type="checkbox" value="" [checked]="package.checked">  {{package.packageName }}</td>
+        <td>{{package.deviceFamily}}</td>
+        <td>{{package.productFamily}}</td>
+        <td>
+          <a [routerLink]="">
+            {{package.status}}
+      </a></td>
+        <td><a [routerLink]="">
+          View
+      </a></td>
+        <td>          
+            <a [routerLink]="">
+           <img  src="../../assets/download.PNG" /></a>
+       
+      </td>
+    </tr>
+    </tbody>
+    </table>
+</div>
+</div>
+</div>
