@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { PackagelistComponent } from './packagelist/packagelistcomponent';
+import { PackageDetailsComponent } from './packagedetails/packagedetails.component';
 
 @NgModule({
   declarations: [
@@ -14,13 +15,14 @@ import { PackagelistComponent } from './packagelist/packagelistcomponent';
     HomeComponent,
     HeaderComponent,
     NavComponent,
-    PackagelistComponent
+    PackagelistComponent,
+    PackageDetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+   bootstrap: [AppComponent]
 })
 export class AppModule { }

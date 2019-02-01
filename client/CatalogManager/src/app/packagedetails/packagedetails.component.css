@@ -1,0 +1,13 @@
+.headertext{
+font-size: 150%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+word-wrap: break-word;
+}
+.bodytext{
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+}
+.mainheader{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 2%
+}
