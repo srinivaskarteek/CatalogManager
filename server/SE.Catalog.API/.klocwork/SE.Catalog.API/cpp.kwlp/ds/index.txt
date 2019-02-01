@@ -1,0 +1,7 @@
+C:\Users\sesa59560\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\4B47B422-BC4C-4615-BBDE-BE1DF9B21B0D\20\ac509c48\IServiceCollection.cs;C:\Crowd Sourcing Wave 2\SE.Catalog.API\.klocwork\SE.Catalog.API\cpp.kwlp\ds\1\2g1ft0xu.grt;1;0;False;11A02E3F337CDF718CE4CA0243540A5EF4620839;False
+C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.API\appsettings.json;C:\Crowd Sourcing Wave 2\SE.Catalog.API\.klocwork\SE.Catalog.API\cpp.kwlp\ds\2\yyndo0uu.taj;2;0;False;E3150D7AAB30DAD14B94108F1C5BE6B26C6A2216;False
+C:\Crowd Sourcing Wave 2\SE.Catalog.API\SQLQuery1.sql;C:\Crowd Sourcing Wave 2\SE.Catalog.API\.klocwork\SE.Catalog.API\cpp.kwlp\ds\5\0g0f4tre.zxt;5;0;False;AD0A2BF977AF00E02BCFA3FB053F7BD2DCC69AA0;False
+C:\Users\sesa59560\AppData\Local\Temp\~vs8DEA.sql;;6;0;False;57218C316B6921E2CD61027A2387EDC31A2D9471;False
+C:\Users\sesa59560\AppData\Local\Temp\~vs5AEA.sql;C:\Crowd Sourcing Wave 2\SE.Catalog.API\.klocwork\SE.Catalog.API\cpp.kwlp\ds\7\4yo214l3.tbi;7;0;False;;False
+C:\Users\sesa59560\AppData\Local\Temp\~vsC115.sql;C:\Crowd Sourcing Wave 2\SE.Catalog.API\.klocwork\SE.Catalog.API\cpp.kwlp\ds\8\zjfv4j3w.uy2;8;0;False;;False
+C:\Users\sesa59560\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler\9B2250D1-FB76-44B9-8AF1-AB5ED79E762F\f3\0f70716b\DbContext.cs;C:\Crowd Sourcing Wave 2\SE.Catalog.API\.klocwork\SE.Catalog.API\cpp.kwlp\ds\9\n0ozowxw.xeu;9;0;False;880DB4B7BF1CB12DFE549745A5FBB53C1E0905D2;False
