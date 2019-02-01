@@ -20,3 +20,25 @@ C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\S
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.csproj.CopyComplete
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.dll
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.API.deps.json
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.API.runtimeconfig.json
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.API.runtimeconfig.dev.json
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.API.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.API.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.Models.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.Repository.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.Repository.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.csprojAssemblyReference.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.csproj.CoreCompileInputs.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.RazorAssemblyInfo.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.RazorAssemblyInfo.cs
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.AssemblyInfoInputs.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.AssemblyInfo.cs
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.RazorTargetAssemblyInfo.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.csproj.CopyComplete
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.pdb

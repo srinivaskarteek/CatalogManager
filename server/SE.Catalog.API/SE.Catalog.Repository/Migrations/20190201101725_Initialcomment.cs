@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace SE.Catalog.Repository.Migrations
 {
-    public partial class first : Migration
+    public partial class Initialcomment : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -32,8 +32,8 @@ namespace SE.Catalog.Repository.Migrations
                     CreatedOn = table.Column<DateTime>(nullable: false),
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(nullable: true),
-                    Description = table.Column<string>(nullable: true)
+                    Name = table.Column<string>(nullable: false),
+                    Description = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -45,11 +45,11 @@ namespace SE.Catalog.Repository.Migrations
                 columns: table => new
                 {
                     LastModified = table.Column<DateTime>(nullable: false),
-                    CreatedOn = table.Column<DateTime>(nullable: false),
+                    CreatedOn = table.Column<DateTime>(nullable: false, defaultValue: new DateTime(2019, 2, 1, 15, 47, 24, 945, DateTimeKind.Local)),
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true),
-                    Role = table.Column<string>(nullable: true),
+                    Role = table.Column<int>(nullable: false),
                     IsActive = table.Column<bool>(nullable: false),
                     Email = table.Column<string>(nullable: true),
                     Password = table.Column<string>(nullable: true)
@@ -67,9 +67,9 @@ namespace SE.Catalog.Repository.Migrations
                     CreatedOn = table.Column<DateTime>(nullable: false),
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(nullable: true),
-                    Description = table.Column<string>(nullable: true),
-                    URL = table.Column<string>(nullable: true)
+                    Name = table.Column<string>(nullable: false),
+                    Description = table.Column<string>(nullable: false),
+                    URL = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -84,20 +84,21 @@ namespace SE.Catalog.Repository.Migrations
                     CreatedOn = table.Column<DateTime>(nullable: false),
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(nullable: true),
-                    ProductName = table.Column<string>(nullable: true),
-                    HWVersion = table.Column<string>(nullable: true),
-                    DeviceFamilyId = table.Column<int>(nullable: true),
+                    Name = table.Column<string>(nullable: false),
+                    ProductName = table.Column<string>(nullable: false),
+                    HWVersion = table.Column<string>(nullable: false),
                     ProductFamilyId = table.Column<int>(nullable: true),
+                    DeviceFamilyId = table.Column<int>(nullable: true),
                     VendorId = table.Column<int>(nullable: true),
-                    ProfileType = table.Column<string>(nullable: true),
+                    ProfileType = table.Column<string>(nullable: false),
                     Status = table.Column<int>(nullable: false),
                     OwnerId = table.Column<int>(nullable: false),
                     UploadDate = table.Column<DateTime>(nullable: false),
-                    ProductId = table.Column<string>(nullable: true),
-                    SWVersion = table.Column<string>(nullable: true),
-                    FileName = table.Column<string>(nullable: true),
-                    BlobURL = table.Column<string>(nullable: true)
+                    ProductId = table.Column<string>(nullable: false),
+                    SWVersion = table.Column<string>(nullable: false),
+                    FileName = table.Column<string>(nullable: false),
+                    BlobURL = table.Column<string>(nullable: false),
+                    DeviceFamilyId1 = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -105,6 +106,12 @@ namespace SE.Catalog.Repository.Migrations
                     table.ForeignKey(
                         name: "FK_Packages_DeviceFamilies_DeviceFamilyId",
                         column: x => x.DeviceFamilyId,
+                        principalTable: "DeviceFamilies",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Packages_DeviceFamilies_DeviceFamilyId1",
+                        column: x => x.DeviceFamilyId1,
                         principalTable: "DeviceFamilies",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -128,7 +135,7 @@ namespace SE.Catalog.Repository.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Comment = table.Column<string>(nullable: true),
+                    Comment = table.Column<string>(nullable: false),
                     PackageId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
@@ -142,6 +149,21 @@ namespace SE.Catalog.Repository.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
+            migrationBuilder.InsertData(
+                table: "Users",
+                columns: new[] { "Id", "CreatedOn", "Email", "IsActive", "LastModified", "Name", "Password", "Role" },
+                values: new object[] { 1, new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), "admin1@gmail.com", true, new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), "Admin1", "admin", 0 });
+
+            migrationBuilder.InsertData(
+                table: "Users",
+                columns: new[] { "Id", "CreatedOn", "Email", "IsActive", "LastModified", "Name", "Password", "Role" },
+                values: new object[] { 2, new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), "vendor1@gmail.com", true, new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), "Vendor1", "vendor", 1 });
+
+            migrationBuilder.InsertData(
+                table: "Users",
+                columns: new[] { "Id", "CreatedOn", "Email", "IsActive", "LastModified", "Name", "Password", "Role" },
+                values: new object[] { 3, new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), "lob1@gmail.com", true, new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), "Lob1", "lob", 2 });
+
             migrationBuilder.CreateIndex(
                 name: "IX_PackageComments_PackageId",
                 table: "PackageComments",
@@ -151,6 +173,11 @@ namespace SE.Catalog.Repository.Migrations
                 name: "IX_Packages_DeviceFamilyId",
                 table: "Packages",
                 column: "DeviceFamilyId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Packages_DeviceFamilyId1",
+                table: "Packages",
+                column: "DeviceFamilyId1");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Packages_ProductFamilyId",

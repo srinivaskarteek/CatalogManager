@@ -7,3 +7,12 @@ C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.dll
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.csprojAssemblyReference.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\bin\Debug\netcoreapp2.1\SE.Catalog.Models.deps.json
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\bin\Debug\netcoreapp2.1\SE.Catalog.Models.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\bin\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.csproj.CoreCompileInputs.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.AssemblyInfoInputs.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.AssemblyInfo.cs
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.csprojAssemblyReference.cache

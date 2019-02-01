@@ -12,3 +12,17 @@ C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Repository\obj\Debug\netcorea
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Repository\obj\Debug\netcoreapp2.1\SE.Catalog.Repository.csproj.CopyComplete
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Repository\obj\Debug\netcoreapp2.1\SE.Catalog.Repository.dll
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Repository\obj\Debug\netcoreapp2.1\SE.Catalog.Repository.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\bin\Debug\netcoreapp2.1\SE.Catalog.Repository.deps.json
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\bin\Debug\netcoreapp2.1\SE.Catalog.Repository.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\bin\Debug\netcoreapp2.1\SE.Catalog.Repository.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\bin\Debug\netcoreapp2.1\SE.Catalog.Models.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\bin\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\obj\Debug\netcoreapp2.1\SE.Catalog.Repository.csprojAssemblyReference.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\obj\Debug\netcoreapp2.1\SE.Catalog.Repository.csproj.CoreCompileInputs.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\obj\Debug\netcoreapp2.1\SE.Catalog.Repository.AssemblyInfoInputs.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\obj\Debug\netcoreapp2.1\SE.Catalog.Repository.AssemblyInfo.cs
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\obj\Debug\netcoreapp2.1\SE.Catalog.Repository.csproj.CopyComplete
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\obj\Debug\netcoreapp2.1\SE.Catalog.Repository.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\obj\Debug\netcoreapp2.1\SE.Catalog.Repository.pdb

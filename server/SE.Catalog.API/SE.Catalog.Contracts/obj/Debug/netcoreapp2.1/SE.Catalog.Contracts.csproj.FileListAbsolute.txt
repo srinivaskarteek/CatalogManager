@@ -10,3 +10,15 @@ C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreap
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.csproj.CopyComplete
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.dll
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.deps.json
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Models.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.csprojAssemblyReference.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.csproj.CoreCompileInputs.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.AssemblyInfoInputs.cache
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.AssemblyInfo.cs
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.csproj.CopyComplete
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.dll
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.pdb

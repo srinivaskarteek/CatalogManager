@@ -3509,11 +3509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Crowd Sourcing Wave 2\\SE.Catalog.API\\SE.Catalog.Repository\\SE.Catalog.Repository.csproj",
+      "projectUniqueName": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Repository\\SE.Catalog.Repository.csproj",
       "projectName": "SE.Catalog.Repository",
-      "projectPath": "C:\\Crowd Sourcing Wave 2\\SE.Catalog.API\\SE.Catalog.Repository\\SE.Catalog.Repository.csproj",
+      "projectPath": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Repository\\SE.Catalog.Repository.csproj",
       "packagesPath": "C:\\Users\\sesa59560\\.nuget\\packages\\",
-      "outputPath": "C:\\Crowd Sourcing Wave 2\\SE.Catalog.API\\SE.Catalog.Repository\\obj\\",
+      "outputPath": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3532,11 +3532,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Crowd Sourcing Wave 2\\SE.Catalog.API\\SE.Catalog.Contracts\\SE.Catalog.Contracts.csproj": {
-              "projectPath": "C:\\Crowd Sourcing Wave 2\\SE.Catalog.API\\SE.Catalog.Contracts\\SE.Catalog.Contracts.csproj"
+            "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Contracts\\SE.Catalog.Contracts.csproj": {
+              "projectPath": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Contracts\\SE.Catalog.Contracts.csproj"
             },
-            "C:\\Crowd Sourcing Wave 2\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj": {
-              "projectPath": "C:\\Crowd Sourcing Wave 2\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj"
+            "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj": {
+              "projectPath": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj"
             }
           }
         }

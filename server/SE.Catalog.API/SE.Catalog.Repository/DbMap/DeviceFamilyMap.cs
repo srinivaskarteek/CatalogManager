@@ -11,6 +11,9 @@ namespace SE.Catalog.Repository.DbMap
     {
         public void Configure(EntityTypeBuilder<DeviceFamily> builder)
         {
+           builder.Property(a => a.Name).IsRequired();
+           builder.Property(a => a.Description).IsRequired();
+          // builder.HasMany<Package>().WithOne(b=> b.DeviceFamily);
         }
     }
 }
