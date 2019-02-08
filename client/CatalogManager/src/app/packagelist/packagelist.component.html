@@ -28,12 +28,21 @@
         <td>{{package.deviceFamily}}</td>
         <td>{{package.productFamily}}</td>
         <td>
-          <a [routerLink]="">
-           Approve
-      </a>
-      <a [routerLink]="" style="margin-left: 15%">
-        Reject
-  </a>
+          <div [ngSwitch]="package.status">
+              <a *ngSwitchCase="1" [routerLink]="">
+                  Approve
+               </a>
+              <a *ngSwitchCase="1" [routerLink]="" style="margin-left: 15%">
+               Reject
+                 </a>
+                 <div *ngSwitchCase="0" >
+                    Approved
+                 </div>
+                 <div *ngSwitchCase="2" >
+                    Rejected
+                 </div>
+          </div>
+          
         </td>
         <td><a routerLink="/viewdetails" routerLinkActive="active">
           View

@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { PackagelistComponent } from './packagelist/packagelistcomponent';
 import { PackageDetailsComponent } from './packagedetails/packagedetails.component';
+import { HttpClientModule }    from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PackageDetailsComponent } from './packagedetails/packagedetails.compone
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
    bootstrap: [AppComponent]

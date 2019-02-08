@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {PackageListService} from '../services/packages-list.service'
+import {IPackage} from '../models/package'
 
 @Component({
   selector: 'app-packagelist',
@@ -7,43 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PackagelistComponent implements OnInit {
 
-  constructor() { }
+  constructor(private packageSerive:PackageListService) { }
 
   ngOnInit() {
+    this.getPackages();
   }
 
-  packages= [
-    {
-      "checked":false,
-      "packageName": "sample",
-      "deviceFamily": "Leaf Rake",
-      "productFamily": "GDN-0011",
-      "status": "Approve",
-    },{
-      "checked":false,
-      "packageName": "sample",
-      "deviceFamily": "Leaf Rake",
-      "productFamily": "GDN-0011",
-      "status": "Approve",
-    },{
-      "checked":false,
-      "packageName": "sample",
-      "deviceFamily": "Leaf Rake",
-      "productFamily": "GDN-0011",
-      "status": "Approve",
-    },{
-      "checked":false,
-      "packageName": "sample",
-      "deviceFamily": "Leaf Rake",
-      "productFamily": "GDN-0011",
-      "status": "Approve",
-    },{
-      "checked":false,
-      "packageName": "sample",
-      "deviceFamily": "Leaf Rake",
-      "productFamily": "GDN-0011",
-      "status": "Approve",
-    }
+  packages:IPackage[];
+  errorMessage:any;
 
-  ];
+  getPackages(): void {
+    this.packageSerive.getProducts()
+    .subscribe(products => { 
+        this.packages = products; 
+    }, error => this.errorMessage = <any>error);
+  }
+ 
 }

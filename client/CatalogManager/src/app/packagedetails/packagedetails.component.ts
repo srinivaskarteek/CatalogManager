@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { IPackageDetails } from '../models/packageDetails';
+import { PackageService } from '../services/package.service';
 
 @Component({
   selector: 'app-packagedetails',
@@ -7,20 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PackageDetailsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private packageSerive:PackageService) { }
 
   ngOnInit() {
+    this.getPackages();
   }
-  PackageDetails= {
-      "ProductName":"XYZZZZZZZZZZZZzzzzz",
-      "OrderNumber": "123456987",
-      "HWVersion": "V 1.023",
-      "ProductFamily": "Schneider",
-      "DeviceFamily": "Installation",
-      "ProfileType": "SLC",
-      "StateDescription": "This is Package desciption details",
-      "Vendor": "Karteel",
-      "Owner": "Karteel",
-      "UpdateDate": "Last Updated"
-    };
+
+  PackageDetails:IPackageDetails;
+  errorMessage:any;
+
+  getPackages(): void {
+    this.packageSerive.getPackageDetails()
+    .subscribe(products => { 
+        this.PackageDetails = products; 
+    }, error => this.errorMessage = <any>error);
+  }
+ 
 }
