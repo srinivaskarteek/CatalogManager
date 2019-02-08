@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SE.Catalog.Contracts;
 using SE.Catalog.Models;
+using SE.Catalog.Repository;
 
 namespace SE.Catalog.API.Controllers
 {
@@ -12,11 +13,14 @@ namespace SE.Catalog.API.Controllers
     [ApiController]
     public class PackageController : ControllerBase
     {
-        public readonly IRepositoryBase<Package> _packageRepository;
+       public readonly IRepositoryBase<Package> _packageRepository;
 
-      public PackageController(IRepositoryBase<Package> context)
+        public CatalogContext _catalogContext { get; set; }
+
+        public PackageController(IRepositoryBase<Package> context, CatalogContext catalogContext)
         {
             _packageRepository = context;
+            _catalogContext = catalogContext;
         }
        
         // POST: api/Package

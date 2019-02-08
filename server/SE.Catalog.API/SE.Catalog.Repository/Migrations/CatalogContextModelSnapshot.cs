@@ -144,7 +144,7 @@ namespace SE.Catalog.Repository.Migrations
 
                     b.Property<DateTime>("CreatedOn")
                         .ValueGeneratedOnAdd()
-                        .HasDefaultValue(new DateTime(2019, 2, 1, 16, 43, 17, 312, DateTimeKind.Local));
+                        .HasDefaultValue(new DateTime(2019, 2, 8, 9, 49, 18, 961, DateTimeKind.Local));
 
                     b.Property<string>("Email");
 
@@ -163,9 +163,9 @@ namespace SE.Catalog.Repository.Migrations
                     b.ToTable("Users");
 
                     b.HasData(
-                        new { Id = 1, CreatedOn = new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), Email = "admin1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), Name = "Admin1", Password = "admin", Role = 0 },
-                        new { Id = 2, CreatedOn = new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), Email = "vendor1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), Name = "Vendor1", Password = "vendor", Role = 1 },
-                        new { Id = 3, CreatedOn = new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), Email = "lob1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), Name = "Lob1", Password = "lob", Role = 2 }
+                        new { Id = 1, CreatedOn = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Email = "admin1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Name = "Admin1", Password = "admin", Role = 0 },
+                        new { Id = 2, CreatedOn = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Email = "vendor1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Name = "Vendor1", Password = "vendor", Role = 1 },
+                        new { Id = 3, CreatedOn = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Email = "lob1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Name = "Lob1", Password = "lob", Role = 2 }
                     );
                 });
 

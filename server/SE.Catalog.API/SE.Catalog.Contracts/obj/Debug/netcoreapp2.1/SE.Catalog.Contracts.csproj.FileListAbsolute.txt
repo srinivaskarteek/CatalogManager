@@ -22,3 +22,15 @@ C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netc
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.csproj.CopyComplete
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.dll
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.pdb
+C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.deps.json
+C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.dll
+C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.pdb
+C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Models.dll
+C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
+C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.csprojAssemblyReference.cache
+C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.AssemblyInfoInputs.cache
+C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.AssemblyInfo.cs
+C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.csproj.CopyComplete
+C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.dll
+C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.pdb

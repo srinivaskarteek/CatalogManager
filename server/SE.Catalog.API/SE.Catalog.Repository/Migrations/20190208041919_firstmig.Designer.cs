@@ -10,8 +10,8 @@ using SE.Catalog.Repository;
 namespace SE.Catalog.Repository.Migrations
 {
     [DbContext(typeof(CatalogContext))]
-    [Migration("20190201101725_Initialcomment")]
-    partial class Initialcomment
+    [Migration("20190208041919_firstmig")]
+    partial class firstmig
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -29,11 +29,13 @@ namespace SE.Catalog.Repository.Migrations
 
                     b.Property<DateTime>("CreatedOn");
 
-                    b.Property<string>("Description");
+                    b.Property<string>("Description")
+                        .IsRequired();
 
                     b.Property<DateTime>("LastModified");
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired();
 
                     b.HasKey("Id");
 
@@ -51,9 +53,7 @@ namespace SE.Catalog.Repository.Migrations
 
                     b.Property<DateTime>("CreatedOn");
 
-                    b.Property<int?>("DeviceFamilyId");
-
-                    b.Property<int?>("DeviceFamilyId1");
+                    b.Property<int>("DeviceFamilyId");
 
                     b.Property<string>("FileName")
                         .IsRequired();
@@ -68,7 +68,7 @@ namespace SE.Catalog.Repository.Migrations
 
                     b.Property<int>("OwnerId");
 
-                    b.Property<int?>("ProductFamilyId");
+                    b.Property<int>("ProductFamilyId");
 
                     b.Property<string>("ProductId")
                         .IsRequired();
@@ -86,13 +86,11 @@ namespace SE.Catalog.Repository.Migrations
 
                     b.Property<DateTime>("UploadDate");
 
-                    b.Property<int?>("VendorId");
+                    b.Property<int>("VendorId");
 
                     b.HasKey("Id");
 
                     b.HasIndex("DeviceFamilyId");
-
-                    b.HasIndex("DeviceFamilyId1");
 
                     b.HasIndex("ProductFamilyId");
 
@@ -148,7 +146,7 @@ namespace SE.Catalog.Repository.Migrations
 
                     b.Property<DateTime>("CreatedOn")
                         .ValueGeneratedOnAdd()
-                        .HasDefaultValue(new DateTime(2019, 2, 1, 15, 47, 24, 945, DateTimeKind.Local));
+                        .HasDefaultValue(new DateTime(2019, 2, 8, 9, 49, 18, 961, DateTimeKind.Local));
 
                     b.Property<string>("Email");
 
@@ -167,9 +165,9 @@ namespace SE.Catalog.Repository.Migrations
                     b.ToTable("Users");
 
                     b.HasData(
-                        new { Id = 1, CreatedOn = new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), Email = "admin1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), Name = "Admin1", Password = "admin", Role = 0 },
-                        new { Id = 2, CreatedOn = new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), Email = "vendor1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), Name = "Vendor1", Password = "vendor", Role = 1 },
-                        new { Id = 3, CreatedOn = new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), Email = "lob1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 1, 0, 0, 0, 0, DateTimeKind.Local), Name = "Lob1", Password = "lob", Role = 2 }
+                        new { Id = 1, CreatedOn = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Email = "admin1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Name = "Admin1", Password = "admin", Role = 0 },
+                        new { Id = 2, CreatedOn = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Email = "vendor1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Name = "Vendor1", Password = "vendor", Role = 1 },
+                        new { Id = 3, CreatedOn = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Email = "lob1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Name = "Lob1", Password = "lob", Role = 2 }
                     );
                 });
 
@@ -201,19 +199,18 @@ namespace SE.Catalog.Repository.Migrations
                 {
                     b.HasOne("SE.Catalog.Models.DeviceFamily", "DeviceFamily")
                         .WithMany()
-                        .HasForeignKey("DeviceFamilyId");
-
-                    b.HasOne("SE.Catalog.Models.DeviceFamily")
-                        .WithMany()
-                        .HasForeignKey("DeviceFamilyId1");
+                        .HasForeignKey("DeviceFamilyId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("SE.Catalog.Models.ProductFamily", "ProductFamily")
                         .WithMany()
-                        .HasForeignKey("ProductFamilyId");
+                        .HasForeignKey("ProductFamilyId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("SE.Catalog.Models.Vendor", "Vendor")
                         .WithMany()
-                        .HasForeignKey("VendorId");
+                        .HasForeignKey("VendorId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("SE.Catalog.Models.PackageComment", b =>
