@@ -25,7 +25,7 @@ import { PackageAddComponent } from './packageadd/packageadd.component';
     AppRoutingModule,
     NgbModule.forRoot()
   ],
-  entryComponents:[PackageAddComponent],
+  entryComponents: [PackageAddComponent],
   providers: [],
    bootstrap: [AppComponent]
 })
