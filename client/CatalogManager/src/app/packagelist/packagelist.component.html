@@ -6,7 +6,7 @@
     </div>
 
       <div  class="col-1 offset-10" >
-        <img  src="../../assets/AddPackage.PNG"/>
+        <img  src="../../assets/AddPackage.PNG" (click)="openModal()"/>
         </div>
   </div>
   <div  class="row">
@@ -79,3 +79,15 @@
          <button type="button" style="background: #E6E6E6;margin-left: 1%" class="btn">Approve</button>
                 </div>
   </div>
+
+  <ng-template #addPackage let-c="close" let-d="dismiss">
+      <div class="modal-header">
+        <h4 class="modal-title pull-left">Modal</h4>
+        <button type="button" class="close pull-right" aria-label="Close" (click)="hidePopUp()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        This is a modal.
+      </div>
+    </ng-template>
