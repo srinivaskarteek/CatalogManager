@@ -15,13 +15,13 @@ namespace SE.Catalog.Models
         public int ProductFamilyId { get; set; }
 
         [ForeignKey("ProductFamilyId")]
-        public ProductFamily ProductFamily { get; set; }
+        public virtual ProductFamily ProductFamily { get; set; }
         [ForeignKey("DeviceFamilyId")]
-        public DeviceFamily DeviceFamily { get; set; }
+        public virtual DeviceFamily DeviceFamily { get; set; }
 
         public int VendorId { get; set; }
         [ForeignKey("VendorId")]
-        public Vendor Vendor { get; set; }
+        public virtual Vendor Vendor { get; set; }
         public string ProfileType { get; set; }
         public WorkFlowStatus Status { get; set; }
         public int OwnerId { get; set; }

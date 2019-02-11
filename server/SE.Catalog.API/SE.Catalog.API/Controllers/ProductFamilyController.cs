@@ -50,7 +50,7 @@ namespace SE.Catalog.API.Controllers
             {
                 return BadRequest(ModelState);
             }
-
+            
             var productFamily = await _productFamilyRepository.FirstOrDefaultAsync(x => x.Id == id);
 
             if (productFamily == null)

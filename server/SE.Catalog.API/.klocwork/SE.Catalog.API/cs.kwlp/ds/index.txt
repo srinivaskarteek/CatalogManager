@@ -25,12 +25,12 @@ C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Models\Roles.cs;C:\Crowd Sour
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Models\Vendor.cs;C:\Crowd Sourcing Wave 2\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\4\cyj3wbsm.yyq;54;0;False;68D764D7FCB31F74F3DC819381491B395AE69814;False
 C:\Crowd Sourcing Wave 2\SE.Catalog.API\SE.Catalog.Repository\Migrations\20190118064301_third.cs;C:\Crowd Sourcing Wave 2\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\3\qxstv2uu.2ug;63;0;False;340D24DD98F38C9F495E3277AADC1CAD388A4BF0;False
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\AuthController.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\4\2gkrmhsf.eq1;64;0;False;1BFFC8FB560106FB51B88423BE5C4447A8E39DE5;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\DeviceFamilyController.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\5\g2cn3g2c.1x5;65;0;False;45959114A8252B84A29EFCE0AA3F22AED3953D14;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\PackageController.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\6\gg2gxx3f.ujn;66;0;False;DE2B9AC1AE673E2A9C6CD088FD23E6B8C672A660;False
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\DeviceFamilyController.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\5\g2cn3g2c.1x5;65;0;False;EF4D14C80CFCF584192DB288A4DEA44D45446B57;False
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\PackageController.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\6\gg2gxx3f.ujn;66;0;False;48DF97507C36DBEDC42BE433A32465172A6CA41C;False
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\DbMap\DeviceFamilyMap.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\3\izyp1xnp.qji;73;0;False;2BF70BDC38EF566E99420699A604EE94261E56E8;False
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\BaseEntity.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\0\5ufznkhy.irz;90;0;False;8A318CD8611FCC924B921F9A9706A3A3CCA2DB6E;False
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\DeviceFamily.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\1\gwgd4nq2.ou3;91;0;False;664739C48ABCFA37EB1106F55D4724A721952366;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\Package.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\2\rdswlb1k.lxs;92;0;False;64CBE6D85439971FCD95B863A5733C4F84F552FF;False
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\Package.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\2\rdswlb1k.lxs;92;0;False;4D5538812301F79603ACE6A5118BD3ECC71B907F;False
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\PackageComment.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\3\bewzqijg.jrj;93;0;False;25EBBD860F461BB8268BC9FFE4C521EDCA28A975;False
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\PageNSort.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\4\xo23elu0.cvo;94;0;False;B499E9E304A12120693A2813372B1714AE0C86F6;False
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\ProductFamily.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\5\qgvspduk.zlj;95;0;False;AE3950969BBA3E8A69E7089C6669919898765A8F;False
@@ -46,17 +46,11 @@ C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\DbMap\UserMap
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\DbMap\VendorMap.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\8\cygxrnlp.oaq;78;0;False;7691677365B86D7D9C45937DA3CF0C326AE15B67;False
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\Vendor.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\8\nzrzljna.gej;98;0;False;68D764D7FCB31F74F3DC819381491B395AE69814;False
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\Roles.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\6\1tke5rpm.xfn;96;0;False;1E4E147C5E8045056AC4EEFAB93A3D13EA82E603;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\Migrations\20190201102255_Initialcomment2.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\7\dbnphi0i.zhj;127;0;False;C791410C3EC5D083DD47E83CBED669D076376A50;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\Migrations\20190201102255_Initialcomment2.Designer.cs;;136;0;False;751FDBF049F60C00D2A9101CE303B0CC336299E4;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\Migrations\CatalogContextModelSnapshot.cs;;137;0;False;D0BF33B2980378DD489DA0592DF0BDBEA1084E14;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\ProductFamilyController.cs;;128;0;False;6CB8A00EF5569EFE5A7B580A6B2896F7898E6291;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\UsersController.cs;;129;0;False;503BD7A3ACBEF3CB5B9833A73D3A0D38894E133A;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\ValuesController.cs;;130;0;False;2C106CA8190515DE1DE9339F34BD3A7943F18555;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\VendorController.cs;;131;0;False;484129387BB0C9D0889F4E6FE1BC00A25F78C22C;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Program.cs;;132;0;False;712D4C2CD8C6DA15A3C3D8EE7FC86D2B9EDD13BD;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Startup.cs;;133;0;False;F1E3EAD7634DFD2279450BD1333DC632DE8AAB0D;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\Migrations\20190201110940_sedond.cs;;140;0;False;AD662E85ACA6E89B4588F62661A683C9D88BDC27;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\Migrations\20190201110940_sedond.Designer.cs;;141;0;False;41518D6A63F4BE88E1820D1D9F0311811E983986;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\Migrations\20190201101725_Initialcomment.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\4\drxz1luu.ke5;134;0;False;F8C2E2685FBDB7F9B9D8953ADBC5002288B0B952;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\Migrations\20190201111317_sedond2.cs;;142;0;False;105F135E94CEAAD01F858277E79C0234BD3989CA;False
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\Migrations\20190201111317_sedond2.Designer.cs;;143;0;False;945CD6EB4DD6E71DF43667B3271C497EA8BB1A58;False
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\ProductFamilyController.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\9\kw2sxkyf.0y1;99;0;False;C7A93A616DBC99F317626568F45437ED633E7F21;False
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\VendorController.cs;C:\CSWGIT\Catalogmager\server\SE.Catalog.API\.klocwork\SE.Catalog.API\cs.kwlp\ds\2\egcjvt2c.xsk;102;0;False;A1A14B9360A465E598EB1EF3F1E21A90E7A4CD84;False
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\UsersController.cs;;103;0;False;503BD7A3ACBEF3CB5B9833A73D3A0D38894E133A;False
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Controllers\ValuesController.cs;;104;0;False;2C106CA8190515DE1DE9339F34BD3A7943F18555;False
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Program.cs;;105;0;False;712D4C2CD8C6DA15A3C3D8EE7FC86D2B9EDD13BD;False
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.API\Startup.cs;;106;0;False;F1E3EAD7634DFD2279450BD1333DC632DE8AAB0D;False
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\Migrations\20190208041919_firstmig.cs;;107;0;False;9F57AA14566A6A8BBB9C92C8ED52112F729750CB;False
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Repository\Migrations\20190208041919_firstmig.Designer.cs;;108;0;False;3E6B2FC104F24A3260D07B296CA885DB7A3F605F;False

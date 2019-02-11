@@ -15,7 +15,6 @@ C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcore
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.AssemblyInfo.cs
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.dll
 C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
-C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.csprojAssemblyReference.cache
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\bin\Debug\netcoreapp2.1\SE.Catalog.Models.deps.json
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\bin\Debug\netcoreapp2.1\SE.Catalog.Models.dll
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\bin\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
@@ -25,3 +24,4 @@ C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogMa
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.AssemblyInfo.cs
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.dll
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
+C:\CSWGIT\Catalogmager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.csprojAssemblyReference.cache
