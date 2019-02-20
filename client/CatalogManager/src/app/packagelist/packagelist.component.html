@@ -28,12 +28,21 @@
         <td>{{package.deviceFamily}}</td>
         <td>{{package.productFamily}}</td>
         <td>
-          <a [routerLink]="">
-           Approve
-      </a>
-      <a [routerLink]="" style="margin-left: 15%">
-        Reject
-  </a>
+          <div [ngSwitch]="package.status">
+              <a *ngSwitchCase="1" [routerLink]="">
+                  Approve
+               </a>
+              <a *ngSwitchCase="1" [routerLink]="" style="margin-left: 15%">
+               Reject
+                 </a>
+                 <div *ngSwitchCase="0" >
+                    Approved
+                 </div>
+                 <div *ngSwitchCase="2" >
+                    Rejected
+                 </div>
+          </div>
+
         </td>
         <td><a routerLink="/viewdetails" routerLinkActive="active">
           View
@@ -81,8 +90,8 @@
   </div>
 
   <ng-template #addPackage let-c="close" let-d="dismiss">
-      <div class="modal-header">
-        <h4 class="modal-title pull-left">Modal</h4>
+      <div class="modal-header" style="background: #3DCD58; height:60px">
+        <h2 class="modal-title pull-left" >Modal</h2>
         <button type="button" class="close pull-right" aria-label="Close" (click)="hidePopUp()">
           <span aria-hidden="true">&times;</span>
         </button>

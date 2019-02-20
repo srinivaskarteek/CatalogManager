@@ -1,5 +1,8 @@
 import { Component, OnInit, TemplateRef, ViewChild, ElementRef } from '@angular/core';
 import {  NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import {PackageListService} from '../services/packages-list.service';
+import {IPackage} from '../models/package';
+
 @Component({
   selector: 'app-packagelist',
   templateUrl: './packagelist.component.html',
@@ -8,12 +11,16 @@ import {  NgbModal } from '@ng-bootstrap/ng-bootstrap';
 export class PackagelistComponent implements OnInit {
   @ViewChild('addPackage')
   addPackage: ElementRef;
+  packages: IPackage[];
+  errorMessage: any;
 
   public modalReference: any;
 
-  constructor(private modalService: NgbModal) { }
+  constructor(private modalService:  NgbModal, private packageSerive: PackageListService) { }
+
 
   ngOnInit() {
+    this.getPackages();
   }
   openModal() {
     console.log('modal', this.addPackage);
@@ -28,38 +35,11 @@ export class PackagelistComponent implements OnInit {
     this.modalReference.close();
   }
 
-  packages= [
-    {
-      "checked":false,
-      "packageName": "sample",
-      "deviceFamily": "Leaf Rake",
-      "productFamily": "GDN-0011",
-      "status": "Approve",
-    },{
-      "checked":false,
-      "packageName": "sample",
-      "deviceFamily": "Leaf Rake",
-      "productFamily": "GDN-0011",
-      "status": "Approve",
-    },{
-      "checked":false,
-      "packageName": "sample",
-      "deviceFamily": "Leaf Rake",
-      "productFamily": "GDN-0011",
-      "status": "Approve",
-    },{
-      "checked":false,
-      "packageName": "sample",
-      "deviceFamily": "Leaf Rake",
-      "productFamily": "GDN-0011",
-      "status": "Approve",
-    },{
-      "checked":false,
-      "packageName": "sample",
-      "deviceFamily": "Leaf Rake",
-      "productFamily": "GDN-0011",
-      "status": "Approve",
-    }
+  getPackages(): void {
+    this.packageSerive.getProducts()
+    .subscribe(products => {
+        this.packages = products;
+    }, error => this.errorMessage = <any>error);
+  }
 
-  ];
 }

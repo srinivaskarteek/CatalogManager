@@ -1,0 +1,34 @@
+[
+    {
+      "checked":false,
+      "packageName": "sample",
+      "deviceFamily": "Leaf Rake",
+      "productFamily": "GDN-0011",
+      "status": 0
+    },{
+      "checked":false,
+      "packageName": "sample",
+      "deviceFamily": "Leaf Rake",
+      "productFamily": "GDN-0011",
+      "status": 1
+    },{
+      "checked":false,
+      "packageName": "sample",
+      "deviceFamily": "Leaf Rake",
+      "productFamily": "GDN-0011",
+      "status": 2
+    },{
+      "checked":false,
+      "packageName": "sample",
+      "deviceFamily": "Leaf Rake",
+      "productFamily": "GDN-0011",
+      "status": 1
+    },{
+      "checked":false,
+      "packageName": "sample",
+      "deviceFamily": "Leaf Rake",
+      "productFamily": "GDN-0011",
+      "status": 0
+    }
+
+  ]

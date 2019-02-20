@@ -1,0 +1,22 @@
+{
+    "ProductName":"XYZZZZZZZZZZZZzzzzzdfdsffd",
+    "OrderNumber": "123456987",
+    "HWVersion": "V 1.023",
+    "ProductFamily": "Schneider",
+    "DeviceFamily": "Installation",
+    "ProfileType": "SLC",
+    "StateDescription": "This is Package desciption details",
+    "Vendor": "......",
+    "Owner": "......",
+    "UpdateDate": "Last Updated",
+    "DeviceDescription":{
+        "profuctId":2,
+        "softwareVersion":"string",
+        "firwareVersion":"string",
+        "fileVersion":"string",
+        "schemaVersion":"string",
+        "completeLevel":"string",
+        "communication":"string",
+        "fileName":"string"
+    }
+  }

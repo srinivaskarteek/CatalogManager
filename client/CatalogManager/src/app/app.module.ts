@@ -9,6 +9,7 @@ import { NavComponent } from './nav/nav.component';
 import { PackagelistComponent } from './packagelist/packagelistcomponent';
 import { PackageDetailsComponent } from './packagedetails/packagedetails.component';
 import { PackageAddComponent } from './packageadd/packageadd.component';
+import { HttpClientModule }  from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PackageAddComponent } from './packageadd/packageadd.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    HttpClientModule
   ],
   entryComponents: [PackageAddComponent],
   providers: [],
