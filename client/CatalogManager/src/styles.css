@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+  padding: 0em 0em;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2;
+}

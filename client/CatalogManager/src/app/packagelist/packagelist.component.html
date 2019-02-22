@@ -11,20 +11,20 @@
   </div>
   <div  class="row">
   <div class="table-responsive" style="display: flex;justify-content: center">
-    <table class="table table-hover table-sm align-self-auto" style="border: 1px lightgray solid ;max-width: 96%;">
+    <table class="table table-hover table-sm align-self-auto " style="border: 1px lightgray solid ;max-width: 96%;">
         <thead>
         <tr style="background:#E6E6E6">
-            <th style="border-right: 1px lightgray solid"><input type="checkbox" value="" >  Package Name</th>
-            <th style="border-right: 1px lightgray solid">Device Family  </th>
-            <th style="border-right: 1px lightgray solid">Product Family</th>
-            <th style="border-right: 1px lightgray solid">Satus</th>
-            <th style="border-right: 1px lightgray solid">View Details</th>
+            <th class="tableHeader"><input type="checkbox" value=""  (change)="checkAll($event)">  Package Name</th>
+            <th class="tableHeader">Device Family  </th>
+            <th class="tableHeader">Product Family</th>
+            <th class="tableHeader">Satus</th>
+            <th class="tableHeader">View Details</th>
             <th> </th>
         </tr>
     </thead>
     <tbody>
       <tr *ngFor='let package of packages'>
-        <td><input type="checkbox" value="" [checked]="package.checked">  {{package.packageName }}</td>
+        <td><input type="checkbox" value="" [checked]="package.checked" (change)="package.checked = !package.checked">  {{package.packageName }}</td>
         <td>{{package.deviceFamily}}</td>
         <td>{{package.productFamily}}</td>
         <td>
@@ -44,7 +44,7 @@
           </div>
 
         </td>
-        <td><a routerLink="/viewdetails" routerLinkActive="active">
+        <td><a class="active"  (click)="getPackageDetails(package)">
           View
       </a></td>
         <td>
@@ -79,13 +79,13 @@
 <div class="row">
 
       <div class="col-1 offset-9" >
-        <button  type="button"  style="background: #E6E6E6; margin-left: 1%"  class="btn">Delete</button>
+        <button  type="button"  style="background: #E6E6E6; margin-left: 1%"  class="btn" (click)="deletePackagesInBulk()">Delete</button>
       </div>
       <div class="col-1" >
-        <button type="button" style="background: #E6E6E6;margin-left: 1%" class="btn">Reject</button>
+        <button type="button" style="background: #E6E6E6;margin-left: 1%" class="btn" (click)="rejectPackagesInBulk()">Reject</button>
       </div>
       <div class="col-1" >
-         <button type="button" style="background: #E6E6E6;margin-left: 1%" class="btn">Approve</button>
+         <button type="button" style="background: #E6E6E6;margin-left: 1%" class="btn" (click)="approvePackagesInBulk()">Approve</button>
                 </div>
   </div>
 

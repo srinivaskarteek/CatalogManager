@@ -1,7 +1,8 @@
-import { Component, OnInit, TemplateRef, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import {  NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import {PackageListService} from '../services/packages-list.service';
 import {IPackage} from '../models/package';
+import {  Router } from '@angular/router';
 
 @Component({
   selector: 'app-packagelist',
@@ -10,13 +11,15 @@ import {IPackage} from '../models/package';
 })
 export class PackagelistComponent implements OnInit {
   @ViewChild('addPackage')
-  addPackage: ElementRef;
+  addPackage:  ElementRef;
   packages: IPackage[];
   errorMessage: any;
 
   public modalReference: any;
 
-  constructor(private modalService:  NgbModal, private packageSerive: PackageListService) { }
+  constructor(private modalService:  NgbModal,
+     private packageSerive: PackageListService,
+     private router: Router) { }
 
 
   ngOnInit() {
@@ -25,13 +28,12 @@ export class PackagelistComponent implements OnInit {
   openModal() {
     console.log('modal', this.addPackage);
 
-    this.modalReference = this.modalService.open(this.addPackage,{
-      size: 'lg',
-      backdrop: 'static'
+    this.modalReference = this.modalService.open(this.addPackage, {
+      size:  'lg',
+      backdrop:  'static'
       } );
   }
-  hidePopUp()
-  {
+  hidePopUp() {
     this.modalReference.close();
   }
 
@@ -40,6 +42,51 @@ export class PackagelistComponent implements OnInit {
     .subscribe(products => {
         this.packages = products;
     }, error => this.errorMessage = <any>error);
+  }
+  checkAll(ev) {
+    this.packages.forEach(x => x.checked = ev.target.checked);
+  }
+
+  deletePackagesInBulk() {
+    const packages = this.getSelectedPackages() as IPackage[];
+
+    console.log('selected length :: ', packages.length);
+    packages.forEach(x => {
+      console.log('PackageName to delete' , x.packageName);
+    });
+  }
+
+  rejectPackagesInBulk() {
+    const packages = this.getSelectedPackages() as IPackage[];
+
+    console.log('selected length :: ', packages.length);
+    packages.forEach(x => {
+      console.log('PackageName to reject' , x.packageName);
+    });
+  }
+
+  approvePackagesInBulk() {
+    const packages = this.getSelectedPackages() as IPackage[];
+
+    console.log('selected length :: ', packages.length);
+    packages.forEach(x => {
+      console.log('PackageName to approve' , x.packageName);
+    });
+  }
+
+  getSelectedPackages(): IPackage[] {
+    const selectedPackages = [] as IPackage[];
+    this.packages.forEach(x => {
+      if (x.checked) {
+        selectedPackages.push(x);
+      }
+    });
+    return selectedPackages;
+  }
+
+  getPackageDetails(_package: IPackage) {
+    console.log('Selected package :: ' , _package);
+    this.router.navigate(['/viewdetails']);
   }
 
 }
