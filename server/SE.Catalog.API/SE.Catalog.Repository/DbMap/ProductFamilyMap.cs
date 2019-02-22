@@ -11,6 +11,8 @@ namespace SE.Catalog.Repository.DbMap
     {
         public void Configure(EntityTypeBuilder<ProductFamily> builder)
         {
+            builder.Property(a => a.Name).IsRequired();
+            builder.Property(a => a.Description).IsRequired();
         }
     }
 }

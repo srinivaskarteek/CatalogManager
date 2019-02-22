@@ -43,3 +43,4 @@ Thumbs.db
 *.cache
 *.pdb
 *.sql
+*.klocwork
