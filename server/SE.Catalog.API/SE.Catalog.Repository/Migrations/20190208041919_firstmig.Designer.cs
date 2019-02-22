@@ -10,8 +10,8 @@ using SE.Catalog.Repository;
 namespace SE.Catalog.Repository.Migrations
 {
     [DbContext(typeof(CatalogContext))]
-    [Migration("20190118064301_third")]
-    partial class third
+    [Migration("20190208041919_firstmig")]
+    partial class firstmig
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -29,11 +29,13 @@ namespace SE.Catalog.Repository.Migrations
 
                     b.Property<DateTime>("CreatedOn");
 
-                    b.Property<string>("Description");
+                    b.Property<string>("Description")
+                        .IsRequired();
 
                     b.Property<DateTime>("LastModified");
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired();
 
                     b.HasKey("Id");
 
@@ -46,37 +48,45 @@ namespace SE.Catalog.Repository.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("BlobURL");
+                    b.Property<string>("BlobURL")
+                        .IsRequired();
 
                     b.Property<DateTime>("CreatedOn");
 
-                    b.Property<int?>("DeviceFamilyId");
+                    b.Property<int>("DeviceFamilyId");
 
-                    b.Property<string>("FileName");
+                    b.Property<string>("FileName")
+                        .IsRequired();
 
-                    b.Property<string>("HWVersion");
+                    b.Property<string>("HWVersion")
+                        .IsRequired();
 
                     b.Property<DateTime>("LastModified");
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired();
 
                     b.Property<int>("OwnerId");
 
-                    b.Property<int?>("ProductFamilyId");
+                    b.Property<int>("ProductFamilyId");
 
-                    b.Property<string>("ProductId");
+                    b.Property<string>("ProductId")
+                        .IsRequired();
 
-                    b.Property<string>("ProductName");
+                    b.Property<string>("ProductName")
+                        .IsRequired();
 
-                    b.Property<string>("ProfileType");
+                    b.Property<string>("ProfileType")
+                        .IsRequired();
 
-                    b.Property<string>("SWVersion");
+                    b.Property<string>("SWVersion")
+                        .IsRequired();
 
                     b.Property<int>("Status");
 
                     b.Property<DateTime>("UploadDate");
 
-                    b.Property<int?>("VendorId");
+                    b.Property<int>("VendorId");
 
                     b.HasKey("Id");
 
@@ -95,7 +105,8 @@ namespace SE.Catalog.Repository.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Comment");
+                    b.Property<string>("Comment")
+                        .IsRequired();
 
                     b.Property<int?>("PackageId");
 
@@ -114,11 +125,13 @@ namespace SE.Catalog.Repository.Migrations
 
                     b.Property<DateTime>("CreatedOn");
 
-                    b.Property<string>("Description");
+                    b.Property<string>("Description")
+                        .IsRequired();
 
                     b.Property<DateTime>("LastModified");
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired();
 
                     b.HasKey("Id");
 
@@ -131,7 +144,9 @@ namespace SE.Catalog.Repository.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<DateTime>("CreatedOn");
+                    b.Property<DateTime>("CreatedOn")
+                        .ValueGeneratedOnAdd()
+                        .HasDefaultValue(new DateTime(2019, 2, 8, 9, 49, 18, 961, DateTimeKind.Local));
 
                     b.Property<string>("Email");
 
@@ -150,9 +165,9 @@ namespace SE.Catalog.Repository.Migrations
                     b.ToTable("Users");
 
                     b.HasData(
-                        new { Id = 1, CreatedOn = new DateTime(2019, 1, 18, 0, 0, 0, 0, DateTimeKind.Local), Email = "admin1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 1, 18, 0, 0, 0, 0, DateTimeKind.Local), Name = "Admin1", Password = "admin", Role = 0 },
-                        new { Id = 2, CreatedOn = new DateTime(2019, 1, 18, 0, 0, 0, 0, DateTimeKind.Local), Email = "vendor1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 1, 18, 0, 0, 0, 0, DateTimeKind.Local), Name = "Vendor1", Password = "vendor", Role = 1 },
-                        new { Id = 3, CreatedOn = new DateTime(2019, 1, 18, 0, 0, 0, 0, DateTimeKind.Local), Email = "lob1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 1, 18, 0, 0, 0, 0, DateTimeKind.Local), Name = "Lob1", Password = "lob", Role = 2 }
+                        new { Id = 1, CreatedOn = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Email = "admin1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Name = "Admin1", Password = "admin", Role = 0 },
+                        new { Id = 2, CreatedOn = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Email = "vendor1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Name = "Vendor1", Password = "vendor", Role = 1 },
+                        new { Id = 3, CreatedOn = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Email = "lob1@gmail.com", IsActive = true, LastModified = new DateTime(2019, 2, 8, 0, 0, 0, 0, DateTimeKind.Local), Name = "Lob1", Password = "lob", Role = 2 }
                     );
                 });
 
@@ -164,13 +179,16 @@ namespace SE.Catalog.Repository.Migrations
 
                     b.Property<DateTime>("CreatedOn");
 
-                    b.Property<string>("Description");
+                    b.Property<string>("Description")
+                        .IsRequired();
 
                     b.Property<DateTime>("LastModified");
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired();
 
-                    b.Property<string>("URL");
+                    b.Property<string>("URL")
+                        .IsRequired();
 
                     b.HasKey("Id");
 
@@ -181,15 +199,18 @@ namespace SE.Catalog.Repository.Migrations
                 {
                     b.HasOne("SE.Catalog.Models.DeviceFamily", "DeviceFamily")
                         .WithMany()
-                        .HasForeignKey("DeviceFamilyId");
+                        .HasForeignKey("DeviceFamilyId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("SE.Catalog.Models.ProductFamily", "ProductFamily")
                         .WithMany()
-                        .HasForeignKey("ProductFamilyId");
+                        .HasForeignKey("ProductFamilyId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("SE.Catalog.Models.Vendor", "Vendor")
                         .WithMany()
-                        .HasForeignKey("VendorId");
+                        .HasForeignKey("VendorId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("SE.Catalog.Models.PackageComment", b =>

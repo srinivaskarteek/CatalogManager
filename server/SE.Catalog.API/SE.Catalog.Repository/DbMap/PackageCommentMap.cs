@@ -11,6 +11,7 @@ namespace SE.Catalog.Repository.DbMap
     {
         public void Configure(EntityTypeBuilder<PackageComment> builder)
         {
+            builder.Property(a => a.Comment).IsRequired();
         }
     }
 }

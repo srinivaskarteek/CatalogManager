@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Crowd Sourcing Wave 2\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj",
+      "projectUniqueName": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj",
       "projectName": "SE.Catalog.Models",
-      "projectPath": "C:\\Crowd Sourcing Wave 2\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj",
+      "projectPath": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj",
       "packagesPath": "C:\\Users\\sesa59560\\.nuget\\packages\\",
-      "outputPath": "C:\\Crowd Sourcing Wave 2\\SE.Catalog.API\\SE.Catalog.Models\\obj\\",
+      "outputPath": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

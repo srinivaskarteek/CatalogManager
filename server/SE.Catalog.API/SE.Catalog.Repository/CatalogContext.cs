@@ -22,7 +22,15 @@ namespace SE.Catalog.Repository
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new UserMap());            
+            modelBuilder.ApplyConfiguration(new DeviceFamilyMap());
+            modelBuilder.ApplyConfiguration(new UserMap());
+            modelBuilder.ApplyConfiguration(new PackageMap());
+            
+            modelBuilder.ApplyConfiguration(new ProductFamilyMap());
+            modelBuilder.ApplyConfiguration(new PackageCommentMap());
+            modelBuilder.ApplyConfiguration(new VendorMap());
+
+            //modelBuilder.Entity<Package>().HasOne(d=>d.DeviceFamily).WithMany(p=>p.)
         }
     }
 }

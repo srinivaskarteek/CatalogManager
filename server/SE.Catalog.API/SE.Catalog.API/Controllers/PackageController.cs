@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SE.Catalog.Contracts;
 using SE.Catalog.Models;
+using SE.Catalog.Repository;
 
 namespace SE.Catalog.API.Controllers
 {
@@ -12,11 +14,14 @@ namespace SE.Catalog.API.Controllers
     [ApiController]
     public class PackageController : ControllerBase
     {
-        public readonly IRepositoryBase<Package> _packageRepository;
+       public readonly IRepositoryBase<Package> _packageRepository;
 
-      public PackageController(IRepositoryBase<Package> context)
+        public CatalogContext _catalogContext { get; set; }
+
+        public PackageController(IRepositoryBase<Package> context, CatalogContext catalogContext)
         {
             _packageRepository = context;
+            _catalogContext = catalogContext;
         }
        
         // POST: api/Package
@@ -38,6 +43,9 @@ namespace SE.Catalog.API.Controllers
         [HttpGet]
         public IEnumerable<Package> GetPackages()
         {
+            _catalogContext.Packages.Include(p => p.DeviceFamily).ToList();
+            _catalogContext.Packages.Include(p => p.ProductFamily).ToList();
+            _catalogContext.Packages.Include(p => p.Vendor).ToList();
             return _packageRepository.GetAll();
         }
 
@@ -49,6 +57,10 @@ namespace SE.Catalog.API.Controllers
             {
                 return BadRequest(ModelState);
             }
+
+            _catalogContext.Packages.Include(p => p.DeviceFamily).ToList();
+            _catalogContext.Packages.Include(p => p.ProductFamily).ToList();
+            _catalogContext.Packages.Include(p => p.Vendor).ToList();
 
             var package = await _packageRepository.FirstOrDefaultAsync(x => x.Id == id);
 
