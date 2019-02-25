@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using SE.Catalog.Contracts;
 using SE.Catalog.Repository;
+using Microsoft.AspNetCore.Http;
 
 namespace SE.Catalog.API
 {
@@ -27,9 +28,9 @@ namespace SE.Catalog.API
             services.AddRepository(Configuration);
 
             services.AddScoped(typeof(IRepositoryBase<>), typeof(RepositoryBase<>));
-
-           // services.AddDbContext<CatalogContext>(options =>
-               //     options.UseSqlServer(Configuration.GetConnectionString("CatalogContext")));
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            // services.AddDbContext<CatalogContext>(options =>
+            //     options.UseSqlServer(Configuration.GetConnectionString("CatalogContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

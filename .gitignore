@@ -38,6 +38,13 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# temp files
+bin/*
+obj/*
+server/SE.Catalog.API/.klocwork/*
+server/SE.Catalog.API/.vs/*
+
+
 *.dll
 *.exe
 *.cache
