@@ -24,3 +24,12 @@ C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogMa
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.AssemblyInfo.cs
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.dll
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\bin\Debug\netcoreapp2.1\SE.Catalog.Models.deps.json
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\bin\Debug\netcoreapp2.1\SE.Catalog.Models.dll
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\bin\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.csprojAssemblyReference.cache
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.csproj.CoreCompileInputs.cache
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.AssemblyInfoInputs.cache
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.AssemblyInfo.cs
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.dll
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Models\obj\Debug\netcoreapp2.1\SE.Catalog.Models.pdb

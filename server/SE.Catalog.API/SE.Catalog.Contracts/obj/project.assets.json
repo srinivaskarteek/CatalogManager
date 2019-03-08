@@ -704,23 +704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sesa59560\\.nuget\\packages\\": {},
+    "C:\\Users\\SESA477631\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Contracts\\SE.Catalog.Contracts.csproj",
+      "projectUniqueName": "E:\\Crowsoursing2\\CatalogManager\\server\\SE.Catalog.API\\SE.Catalog.Contracts\\SE.Catalog.Contracts.csproj",
       "projectName": "SE.Catalog.Contracts",
-      "projectPath": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Contracts\\SE.Catalog.Contracts.csproj",
-      "packagesPath": "C:\\Users\\sesa59560\\.nuget\\packages\\",
-      "outputPath": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Contracts\\obj\\",
+      "projectPath": "E:\\Crowsoursing2\\CatalogManager\\server\\SE.Catalog.API\\SE.Catalog.Contracts\\SE.Catalog.Contracts.csproj",
+      "packagesPath": "C:\\Users\\SESA477631\\.nuget\\packages\\",
+      "outputPath": "E:\\Crowsoursing2\\CatalogManager\\server\\SE.Catalog.API\\SE.Catalog.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\sesa59560\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SESA477631\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -733,8 +733,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj": {
-              "projectPath": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj"
+            "E:\\Crowsoursing2\\CatalogManager\\server\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj": {
+              "projectPath": "E:\\Crowsoursing2\\CatalogManager\\server\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj"
             }
           }
         }

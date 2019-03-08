@@ -64,3 +64,25 @@ C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogMa
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.csproj.CopyComplete
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.dll
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.pdb
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.API.deps.json
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.API.runtimeconfig.json
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.API.runtimeconfig.dev.json
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.API.dll
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.API.pdb
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.dll
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.Models.dll
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.Repository.dll
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.pdb
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\bin\Debug\netcoreapp2.1\SE.Catalog.Repository.pdb
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.csprojAssemblyReference.cache
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.csproj.CoreCompileInputs.cache
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.RazorAssemblyInfo.cache
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.RazorAssemblyInfo.cs
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.AssemblyInfoInputs.cache
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.AssemblyInfo.cs
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.RazorTargetAssemblyInfo.cache
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.csproj.CopyComplete
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.dll
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.API\obj\Debug\netcoreapp2.1\SE.Catalog.API.pdb

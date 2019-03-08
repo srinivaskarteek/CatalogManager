@@ -10,7 +10,7 @@ import { catchError, map, tap } from 'rxjs/operators';
 export class PackageListService {
 
   constructor(private http: HttpClient) { }
-  packagesUrl="../../assets/packages.json";
+  packagesUrl="https://cswappkr.azurewebsites.net/api/package";
   baseUrl="";
   /** GET heroes from the server */
   getProducts (): Observable<IPackage[]> {
@@ -30,7 +30,7 @@ export class PackageListService {
   rejectPackage(id: number) {
     return this.http.delete(this.baseUrl + '/' + id);
   }
-  
+
 /**
  * Handle Http operation that failed.
  * Let the app continue.
@@ -39,13 +39,13 @@ export class PackageListService {
  */
 private handleError<T> (operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {
-   
+
       // TODO: send the error to remote logging infrastructure
       console.error(error); // log to console instead
-   
+
       // TODO: better job of transforming error for user consumption
      // this.log(`${operation} failed: ${error.message}`);
-   
+
       // Let the app keep running by returning an empty result.
       return of(result as T);
     };

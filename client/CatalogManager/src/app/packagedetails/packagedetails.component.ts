@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IPackageDetails } from '../models/packageDetails';
 import { PackageService } from '../services/package.service';
+import { IPackage } from '../models/package';
 
 @Component({
   selector: 'app-packagedetails',
@@ -15,14 +16,14 @@ export class PackageDetailsComponent implements OnInit {
     this.getPackages();
   }
 
-  PackageDetails:IPackageDetails;
+  PackageDetails:IPackage;
   errorMessage:any;
 
   getPackages(): void {
     this.packageSerive.getPackageDetails()
-    .subscribe(products => { 
-        this.PackageDetails = products; 
+    .subscribe(products => {
+        this.PackageDetails = products;
     }, error => this.errorMessage = <any>error);
   }
- 
+
 }

@@ -52,7 +52,7 @@ export class PackagelistComponent implements OnInit {
 
     console.log('selected length :: ', packages.length);
     packages.forEach(x => {
-      console.log('PackageName to delete' , x.packageName);
+      console.log('PackageName to delete' , x.name);
     });
   }
 
@@ -61,7 +61,7 @@ export class PackagelistComponent implements OnInit {
 
     console.log('selected length :: ', packages.length);
     packages.forEach(x => {
-      console.log('PackageName to reject' , x.packageName);
+      console.log('PackageName to reject' , x.name);
     });
   }
 
@@ -70,7 +70,7 @@ export class PackagelistComponent implements OnInit {
 
     console.log('selected length :: ', packages.length);
     packages.forEach(x => {
-      console.log('PackageName to approve' , x.packageName);
+      console.log('PackageName to approve' , x.name);
     });
   }
 

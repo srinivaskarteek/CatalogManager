@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sesa59560\\.nuget\\packages\\": {},
+    "C:\\Users\\SESA477631\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj",
+      "projectUniqueName": "E:\\Crowsoursing2\\CatalogManager\\server\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj",
       "projectName": "SE.Catalog.Models",
-      "projectPath": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj",
-      "packagesPath": "C:\\Users\\sesa59560\\.nuget\\packages\\",
-      "outputPath": "C:\\CSWGIT\\Catalogmager\\server\\SE.Catalog.API\\SE.Catalog.Models\\obj\\",
+      "projectPath": "E:\\Crowsoursing2\\CatalogManager\\server\\SE.Catalog.API\\SE.Catalog.Models\\SE.Catalog.Models.csproj",
+      "packagesPath": "C:\\Users\\SESA477631\\.nuget\\packages\\",
+      "outputPath": "E:\\Crowsoursing2\\CatalogManager\\server\\SE.Catalog.API\\SE.Catalog.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\sesa59560\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SESA477631\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

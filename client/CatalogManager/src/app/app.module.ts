@@ -10,6 +10,8 @@ import { PackagelistComponent } from './packagelist/packagelistcomponent';
 import { PackageDetailsComponent } from './packagedetails/packagedetails.component';
 import { PackageAddComponent } from './packageadd/packageadd.component';
 import { HttpClientModule }  from '@angular/common/http';
+import { PackagefamilyComponent } from './packagefamily/packagefamily.component';
+import { DevicefamilyComponent } from './devicefamily/devicefamily.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HttpClientModule }  from '@angular/common/http';
     NavComponent,
     PackagelistComponent,
     PackageDetailsComponent,
-    PackageAddComponent
+    PackageAddComponent,
+    PackagefamilyComponent,
+    DevicefamilyComponent
   ],
   imports: [
     BrowserModule,

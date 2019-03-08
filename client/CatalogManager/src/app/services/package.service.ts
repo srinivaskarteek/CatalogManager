@@ -3,6 +3,7 @@ import { IPackageDetails  } from '../models/packageDetails';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
+import { IPackage } from '../models/package';
 
 @Injectable({
   providedIn: 'root',
@@ -10,14 +11,14 @@ import { catchError, map, tap } from 'rxjs/operators';
 export class PackageService {
 
   constructor(private http: HttpClient) { }
-  packagesUrl="../../assets/packageDetails.json";
+  packagesUrl="https://cswappkr.azurewebsites.net/api/package/1";
   /** GET heroes from the server */
-  getPackageDetails (): Observable<IPackageDetails> {
-    return this.http.get<IPackageDetails>(this.packagesUrl).pipe(
+  getPackageDetails (): Observable<IPackage> {
+    return this.http.get<IPackage>(this.packagesUrl).pipe(
         catchError(this.handleError('getProducts', null))
       );
   }
-  
+
 /**
  * Handle Http operation that failed.
  * Let the app continue.
@@ -26,13 +27,13 @@ export class PackageService {
  */
 private handleError<T> (operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {
-   
+
       // TODO: send the error to remote logging infrastructure
       console.error(error); // log to console instead
-   
+
       // TODO: better job of transforming error for user consumption
      // this.log(`${operation} failed: ${error.message}`);
-   
+
       // Let the app keep running by returning an empty result.
       return of(result as T);
     };

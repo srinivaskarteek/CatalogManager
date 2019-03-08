@@ -34,3 +34,15 @@ C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogMa
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.csproj.CopyComplete
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.dll
 C:\Users\SESA341402\Desktop\DCT\Crowdsourcing\Catalog manager Dev Repo\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.pdb
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.deps.json
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.dll
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Contracts.pdb
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Models.dll
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\bin\Debug\netcoreapp2.1\SE.Catalog.Models.pdb
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.csprojAssemblyReference.cache
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.csproj.CoreCompileInputs.cache
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.AssemblyInfoInputs.cache
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.AssemblyInfo.cs
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.csproj.CopyComplete
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.dll
+E:\Crowsoursing2\CatalogManager\server\SE.Catalog.API\SE.Catalog.Contracts\obj\Debug\netcoreapp2.1\SE.Catalog.Contracts.pdb

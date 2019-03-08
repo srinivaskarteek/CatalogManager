@@ -24,9 +24,9 @@
     </thead>
     <tbody>
       <tr *ngFor='let package of packages'>
-        <td><input type="checkbox" value="" [checked]="package.checked" (change)="package.checked = !package.checked">  {{package.packageName }}</td>
-        <td>{{package.deviceFamily}}</td>
-        <td>{{package.productFamily}}</td>
+        <td><input type="checkbox" value="" [checked]="package.checked" (change)="package.checked = !package.checked">  {{package.name }}</td>
+        <td>{{package.deviceFamily.name}}</td>
+        <td>{{package.productFamily.name}}</td>
         <td>
           <div [ngSwitch]="package.status">
               <a *ngSwitchCase="1" [routerLink]="">
