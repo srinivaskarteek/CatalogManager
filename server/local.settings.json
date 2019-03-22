@@ -1,0 +1,6 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=cswstorageacc;AccountKey=To+5UdyqS321tn75hn0IsJd279lBW0BvmXsGl+Tueo/jjzJtzGjjRTHB2yAK7YG41aiAkOZin15Nxd+QtH2BYQ==;BlobEndpoint=https://cswstorageacc.blob.core.windows.net/;TableEndpoint=https://cswstorageacc.table.core.windows.net/;QueueEndpoint=https://cswstorageacc.queue.core.windows.net/;FileEndpoint=https://cswstorageacc.file.core.windows.net/",
+    }
+}
