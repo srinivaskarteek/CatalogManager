@@ -2,6 +2,7 @@ import { IDevice } from "./device";
 
 export interface IPackage{
 
+    id: Int32Array;
     checked: boolean;
     name: string;
     deviceFamilyId: string;

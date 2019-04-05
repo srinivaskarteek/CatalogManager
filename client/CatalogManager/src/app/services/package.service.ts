@@ -11,13 +11,23 @@ import { IPackage } from '../models/package';
 export class PackageService {
 
   constructor(private http: HttpClient) { }
-  packagesUrl="https://cswappkr.azurewebsites.net/api/package/1";
+  packagesUrl="https://cswappkr.azurewebsites.net/api/package/";
   /** GET heroes from the server */
   getPackageDetails (): Observable<IPackage> {
-    return this.http.get<IPackage>(this.packagesUrl).pipe(
+  let a = this.http.get<IPackage>(this.packagesUrl).pipe(
         catchError(this.handleError('getProducts', null))
       );
+      alert(a);
+      console.log(a);
+      (a);
+      return a;
   }
+
+  getPackageDetailsBasedOnId (id: Int32Array): Observable<IPackage> {
+    return this.http.get<IPackage>(this.packagesUrl + '/' + id).pipe(
+          catchError(this.handleError('getProducts', null))
+        );
+    }
 
 /**
  * Handle Http operation that failed.

@@ -8,7 +8,7 @@ import { DevicefamilyComponent } from './devicefamily/devicefamily.component';
 const routes: Routes = [
   { path: '',  redirectTo: 'home', pathMatch: 'full' },
   { path: 'home',  component: PackagelistComponent },
-  { path: 'viewdetails',  component: PackageDetailsComponent },
+  { path: 'viewdetails/:id',  component: PackageDetailsComponent },
   { path: 'packagefamily',  component: PackagefamilyComponent },
   { path: 'devicefamily',  component: DevicefamilyComponent }
 ];

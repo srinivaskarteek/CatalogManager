@@ -86,7 +86,7 @@ export class PackagelistComponent implements OnInit {
 
   getPackageDetails(_package: IPackage) {
     console.log('Selected package :: ' , _package);
-    this.router.navigate(['/viewdetails']);
+    this.router.navigate(['/viewdetails',_package.id]);
   }
 
 }

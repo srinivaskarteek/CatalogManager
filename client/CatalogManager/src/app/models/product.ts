@@ -1,4 +1,4 @@
-export interface IDevice{
+export interface IProduct{
 
     profuctId:number;
     softwareVersion:string;
